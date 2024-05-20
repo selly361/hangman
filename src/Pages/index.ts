@@ -1,0 +1,5 @@
+export { default as Home } from './Home'
+export { default as Guide } from './Guide'
+export { default as SelectCategory } from './SelectCategory'
+export { default as HangmanGame } from './HangmanGame'
+export { default as NotFound } from './NotFound'
