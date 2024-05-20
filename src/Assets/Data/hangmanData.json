@@ -30,7 +30,9 @@
 			{ "name": "Alien", "selected": false },
 			{ "name": "Interstellar", "selected": false },
 			{ "name": "Raiders of the Lost Ark", "selected": false },
-			{ "name": "La La Land", "selected": false }
+			{ "name": "La La Land", "selected": false },
+			{ "name": "The Shawshank Redemption", "selected": false },
+			{ "name": "The Godfather Part II", "selected": false }
 		],
 		"TV Shows": [
 			{ "name": "Breaking Bad", "selected": false },
@@ -62,7 +64,9 @@
 			{ "name": "The Big Bang Theory", "selected": false },
 			{ "name": "Curb Your Enthusiasm", "selected": false },
 			{ "name": "Ted Lasso", "selected": false },
-			{ "name": "True Detective", "selected": false }
+			{ "name": "True Detective", "selected": false },
+			{ "name": "The Mandalorian", "selected": false },
+			{ "name": "House of Cards", "selected": false }
 		],
 		"Countries": [
 			{ "name": "Australia", "selected": false },
@@ -94,7 +98,9 @@
 			{ "name": "New Zealand", "selected": false },
 			{ "name": "Argentina", "selected": false },
 			{ "name": "Belgium", "selected": false },
-			{ "name": "Chile", "selected": false }
+			{ "name": "Chile", "selected": false },
+			{ "name": "Norway", "selected": false },
+			{ "name": "Finland", "selected": false }
 		],
 		"Capital Cities": [
 			{ "name": "Tokyo", "selected": false },
@@ -126,7 +132,9 @@
 			{ "name": "Prague", "selected": false },
 			{ "name": "Budapest", "selected": false },
 			{ "name": "Warsaw", "selected": false },
-			{ "name": "Amsterdam", "selected": false }
+			{ "name": "Amsterdam", "selected": false },
+			{ "name": "Sofia", "selected": false },
+			{ "name": "Brussels", "selected": false }
 		],
 		"Animals": [
 			{ "name": "Elephant", "selected": false },
@@ -158,7 +166,9 @@
 			{ "name": "Shark", "selected": false },
 			{ "name": "Octopus", "selected": false },
 			{ "name": "Turtle", "selected": false },
-			{ "name": "Snake", "selected": false }
+			{ "name": "Snake", "selected": false },
+			{ "name": "Alligator", "selected": false },
+			{ "name": "Hippopotamus", "selected": false }
 		],
 		"Sports": [
 			{ "name": "Soccer", "selected": false },
@@ -190,7 +200,104 @@
 			{ "name": "Canoeing", "selected": false },
 			{ "name": "Ice Hockey", "selected": false },
 			{ "name": "Triathlon", "selected": false },
-			{ "name": "American Football", "selected": false }
+			{ "name": "American Football", "selected": false },
+			{ "name": "Golf", "selected": false },
+			{ "name": "Snowboarding", "selected": false }
+		],
+		"Fruits": [
+			{ "name": "Apple", "selected": false },
+			{ "name": "Banana", "selected": false },
+			{ "name": "Orange", "selected": false },
+			{ "name": "Strawberry", "selected": false },
+			{ "name": "Blueberry", "selected": false },
+			{ "name": "Pineapple", "selected": false },
+			{ "name": "Mango", "selected": false },
+			{ "name": "Peach", "selected": false },
+			{ "name": "Cherry", "selected": false },
+			{ "name": "Grape", "selected": false },
+			{ "name": "Lemon", "selected": false },
+			{ "name": "Lime", "selected": false },
+			{ "name": "Watermelon", "selected": false },
+			{ "name": "Papaya", "selected": false },
+			{ "name": "Kiwi", "selected": false },
+			{ "name": "Raspberry", "selected": false },
+			{ "name": "Coconut", "selected": false },
+			{ "name": "Pomegranate", "selected": false },
+			{ "name": "Pear", "selected": false },
+			{ "name": "Plum", "selected": false },
+			{ "name": "Apricot", "selected": false },
+			{ "name": "Grapefruit", "selected": false },
+			{ "name": "Guava", "selected": false },
+			{ "name": "Lychee", "selected": false },
+			{ "name": "Mandarin", "selected": false },
+			{ "name": "Blackberry", "selected": false },
+			{ "name": "Tangerine", "selected": false },
+			{ "name": "Dragon Fruit", "selected": false },
+			{ "name": "Starfruit", "selected": false },
+			{ "name": "Durian", "selected": false }
+		],
+		"Vegetables": [
+			{ "name": "Carrot", "selected": false },
+			{ "name": "Broccoli", "selected": false },
+			{ "name": "Spinach", "selected": false },
+			{ "name": "Potato", "selected": false },
+			{ "name": "Tomato", "selected": false },
+			{ "name": "Onion", "selected": false },
+			{ "name": "Garlic", "selected": false },
+			{ "name": "Peas", "selected": false },
+			{ "name": "Corn", "selected": false },
+			{ "name": "Cabbage", "selected": false },
+			{ "name": "Cauliflower", "selected": false },
+			{ "name": "Bell Pepper", "selected": false },
+			{ "name": "Eggplant", "selected": false },
+			{ "name": "Asparagus", "selected": false },
+			{ "name": "Zucchini", "selected": false },
+			{ "name": "Mushroom", "selected": false },
+			{ "name": "Celery", "selected": false },
+			{ "name": "Cucumber", "selected": false },
+			{ "name": "Lettuce", "selected": false },
+			{ "name": "Pumpkin", "selected": false },
+			{ "name": "Sweet Potato", "selected": false },
+			{ "name": "Radish", "selected": false },
+			{ "name": "Beetroot", "selected": false },
+			{ "name": "Kale", "selected": false },
+			{ "name": "Brussels Sprouts", "selected": false },
+			{ "name": "Turnip", "selected": false },
+			{ "name": "Artichoke", "selected": false },
+			{ "name": "Leek", "selected": false },
+			{ "name": "Parsnip", "selected": false },
+			{ "name": "Butternut Squash", "selected": false }
+		],
+		"Brands": [
+			{ "name": "Apple", "selected": false },
+			{ "name": "Microsoft", "selected": false },
+			{ "name": "Google", "selected": false },
+			{ "name": "Amazon", "selected": false },
+			{ "name": "Facebook", "selected": false },
+			{ "name": "Coca-Cola", "selected": false },
+			{ "name": "Nike", "selected": false },
+			{ "name": "Samsung", "selected": false },
+			{ "name": "Toyota", "selected": false },
+			{ "name": "Mercedes-Benz", "selected": false },
+			{ "name": "BMW", "selected": false },
+			{ "name": "Intel", "selected": false },
+			{ "name": "Sony", "selected": false },
+			{ "name": "McDonald's", "selected": false },
+			{ "name": "Visa", "selected": false },
+			{ "name": "Mastercard", "selected": false },
+			{ "name": "Disney", "selected": false },
+			{ "name": "Pepsi", "selected": false },
+			{ "name": "Adidas", "selected": false },
+			{ "name": "Huawei", "selected": false },
+			{ "name": "Ford", "selected": false },
+			{ "name": "Honda", "selected": false },
+			{ "name": "Dell", "selected": false },
+			{ "name": "HP", "selected": false },
+			{ "name": "Nestle", "selected": false },
+			{ "name": "Kellogg's", "selected": false },
+			{ "name": "Nissan", "selected": false },
+			{ "name": "Procter & Gamble", "selected": false },
+			{ "name": "Unilever", "selected": false }
 		]
 	}
 }
