@@ -1,0 +1,21 @@
+@use 'Styles/utilities' as *;
+
+@font-face {
+	font-family: 'Mouse Memoirs';
+	src: url('../../Assets/Fonts/MouseMemoirs-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+body {
+	font-family: $ff-primary;
+	font-style: normal;
+}

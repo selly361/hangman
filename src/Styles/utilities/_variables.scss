@@ -1,0 +1,19 @@
+/* Color Variables */
+
+$darkNavy: hsl(250, 69%, 27%);
+$blue: hsl(223, 100%, 57%);
+$white: hsl(0, 0%, 100%);
+$pinkGradient: linear-gradient(#fc90fc, #7199ff);
+
+/* Fonts */
+
+$ff-primary: 'Rubik', sans-serif;
+
+/* Media query breakpoints */
+
+$breakpoints: (
+	xs: 375px,
+	sm: 480px,
+	md: 768px,
+	lg: 1024px
+);
