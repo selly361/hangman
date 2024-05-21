@@ -3,32 +3,39 @@
 /* Mixin to manage responsive breakpoints */
 
 @mixin breakpoint($breakpoint) {
-    @media (max-width: map-get($breakpoints, $breakpoint)) {
-        @content;
-    }
+	@media (max-width: map-get($breakpoints, $breakpoint)) {
+		@content;
+	}
 }
 
-/* Headings */
+/* Fonts */
 
 @mixin headingXL {
-    font-size: 136px;
-    line-height: 120%;
-    letter-spacing: -5%;
+	font-size: 136px;
+	line-height: 120%;
+	letter-spacing: -0.05em;
 }
 
 @mixin headingL {
-    font-size: 88px;
-    line-height: auto;
-    letter-spacing: 0%;
+	font-size: 88px;
+	line-height: auto;
+	letter-spacing: 0%;
 }
 
 @mixin headingM {
-    @include headingS;
-    font-size: 48px;
+	@include headingS;
+	font-size: 48px;
 }
 
 @mixin headingS {
-    font-size: 32px;
-    line-height: 120%;
-    letter-spacing: 5%;
+	font-size: 32px;
+	line-height: 120%;
+	letter-spacing: 0.05em;
+}
+
+@mixin body {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 120%;
+	letter-spacing: 0.05em;
 }
