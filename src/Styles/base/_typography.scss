@@ -12,3 +12,30 @@ html {
     font-family: 'Mouse Memoirs', sans-serif;
     font-style: normal;
 }
+
+.headingXL-container {
+	display: grid;
+    grid-template-areas: "stack";
+	justify-self: center;
+	@include headingXL;
+
+	 * {
+      grid-area: stack;
+    }
+}
+
+.headingXL {
+	@include headingXL;
+	color: white;
+	background: linear-gradient(#67B6FF, #FFFFFF);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	position: relative;
+	font-weight: 400;
+}
+
+
+.shadow {
+	-webkit-text-stroke: #243041 20px;
+}
