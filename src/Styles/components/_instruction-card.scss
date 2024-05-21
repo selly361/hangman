@@ -1,0 +1,30 @@
+@use 'Styles/utilities' as *;
+
+.instruction-card {
+	height: 550px;
+	width: 384px;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	padding: 60px 42px;
+	gap: 40px;
+	background: #ffffff;
+	border-radius: 40px;
+
+	&__title {
+		@include headingL;
+        color: $blue;
+	}
+
+	&__sub-title {
+		@include headingM;
+        color: $darkNavy;
+	}
+
+	&__description {
+		@include body;
+        color: #887DC0;
+	}
+}
+
+
