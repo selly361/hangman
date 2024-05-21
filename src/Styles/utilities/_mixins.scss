@@ -1,8 +1,34 @@
 @use 'variables' as *;
 
 /* Mixin to manage responsive breakpoints */
+
 @mixin breakpoint($breakpoint) {
     @media (max-width: map-get($breakpoints, $breakpoint)) {
         @content;
     }
+}
+
+/* Headings */
+
+@mixin headingXL {
+    font-size: 136px;
+    line-height: 120%;
+    letter-spacing: -5%;
+}
+
+@mixin headingL {
+    font-size: 88px;
+    line-height: auto;
+    letter-spacing: 0%;
+}
+
+@mixin headingM {
+    @include headingS;
+    font-size: 48px;
+}
+
+@mixin headingS {
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 5%;
 }
