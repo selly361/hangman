@@ -1,2 +1,5 @@
 export { default as BackButton } from './BackButton'
 export { default as InstructionCard } from './InstructionCard'
+export { default as AlphabetButtons } from './AlphabetButtons'
+export { default as HangmanAnswer } from './HangmanAnswer'
+export { default as MenuModal } from './MenuModal'
