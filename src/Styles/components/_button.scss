@@ -20,8 +20,8 @@
 	}
 
 	&--circle {
-		height: 94px;
-		width: 94px;
+		height: 64px;
+		width: 64px;
 		border-radius: 50%;
 		background: $pinkGradient;
 		box-shadow: inset 0px -6px 0px 7px rgba(159, 46, 245, 0.25);
@@ -37,13 +37,14 @@
 
 	&--letter-button {
 		@extend .button;
-		width: 109px;
+		width: 64px;
 		height: 84px;
 		background: #ffffff;
 		border-radius: 24px;
 		@include headingM;
 		color: $darkNavy;
 		position: relative;
+
 
 		&::after {
 			content: '';

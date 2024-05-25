@@ -17,7 +17,7 @@
 			height: 106px;
 
 			&__title {
-				@include headingL;
+				@include headingM;
 				color: #ffffff;
 				font-weight: 400;
 				width: max-content;
@@ -28,11 +28,11 @@
 			display: flex;
 			align-items: center;
 			gap: 40px;
-			width: 333.33px;
+			width: 253.33px;
 			height: 48.93px;
 
 			&__bar-container {
-				width: 240px;
+				width: 160px;
 				height: 31px;
 				padding: 9px 11px;
 				background: #ffffff;

@@ -8,34 +8,34 @@
 }
 
 html {
-    font-size: 16px;
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-style: normal;
+	font-size: 16px;
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-style: normal;
 }
 
 .headingXL-container {
 	display: grid;
-    grid-template-areas: "stack";
+	grid-template-areas: 'stack';
 	justify-self: center;
-	@include headingXL;
 
-	 * {
-      grid-area: stack;
-    }
+	* {
+		grid-area: stack;
+	}
 }
 
 .headingXL {
 	@include headingXL;
 	color: white;
-	background: linear-gradient(#67B6FF, #FFFFFF);
+	background: linear-gradient(#67b6ff, #ffffff);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	position: relative;
-	font-weight: 400;
+	font-size: 104px;
+	letter-spacing: -0.005em;
+
 }
 
-
 .shadow {
-	-webkit-text-stroke: #243041 20px;
+	-webkit-text-stroke: #243041 16px;
 }

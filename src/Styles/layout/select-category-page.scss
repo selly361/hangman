@@ -20,9 +20,9 @@
 	}
 
     &__categories {
-        display: grid;
-        grid-template-columns: repeat(3, 384px);
-        grid-template-rows: repeat(3, 190px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 2rem;
     }
 }
