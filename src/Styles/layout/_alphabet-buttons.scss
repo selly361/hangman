@@ -1,0 +1,10 @@
+@use 'Styles/utilities' as *;
+
+.alphabet-buttons {
+	display: flex;
+	gap: 24px;
+    flex-wrap: wrap;
+	max-width: 1173px;
+	height: 300px;
+    margin: auto;
+}

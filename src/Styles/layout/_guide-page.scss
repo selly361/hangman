@@ -11,13 +11,14 @@
     gap: 132px;
     padding: 80px  0;
 
-    &::before {
+    &::after {
         content: '';
         inset: 0;
         width: 100vw;
-        height: 100vh;
+        min-height: 100vh;
         position: absolute;
         background: linear-gradient(#1A043A, #151278 70%, #2b1677);
+        background-size: cover;
         opacity: 0.75;
         z-index: -1;
     }
