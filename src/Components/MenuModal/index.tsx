@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom'
 
 function MenuModal() {
 	const { modalContent, closeModal } = useMenuModal()
-	const { playAgain } = useHangman()
+	const { playAgain, reset } = useHangman()
 	const navigate = useNavigate()
 
 	let text = ''
@@ -39,6 +39,12 @@ function MenuModal() {
 		}
 	}
 
+	function quit(){
+		closeModal()
+		reset()
+		navigate('/')
+	}
+
 
 	return (
 		<Fragment>
@@ -60,7 +66,7 @@ function MenuModal() {
 					<button className='button--primary' onClick={handleNewCategory}>
 						NEW CATEGORY
 					</button>
-					<button className='button--quit-game'>QUIT GAME</button>
+					<button onClick={quit} className='button--quit-game'>QUIT GAME</button>
 				</fieldset>
 			</div>
 		</Fragment>
