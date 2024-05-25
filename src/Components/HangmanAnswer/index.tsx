@@ -13,10 +13,9 @@ function HangmanAnswer() {
                     {word.split('').map((char, charIndex) => (
                         <span
                             key={charIndex}
-                            className={`hangman-answer__letter hangman-answer__letter--show ${guessedLetters.includes(char.toLowerCase()) ? 'hangman-answer__letter--show' : ''}`}
+                            className={`hangman-answer__letter ${guessedLetters.includes(char.toLowerCase()) ? 'hangman-answer__letter--show' : ''}`}
                         >
-                            {/* {guessedLetters.includes(char.toLowerCase()) ? char : ''} */}
-                            {char}
+                            {guessedLetters.includes(char.toLowerCase()) ? char : ''}
                         </span>
                     ))}
                 </div>
